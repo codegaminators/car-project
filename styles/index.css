@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 90%;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+
+.logo {
+  width: 5rem;
+
+  height: 5rem;
+}
+.logo img {
+  width: 100%;
+  height: inherit;
+  border-radius: 100%;
+}
+
+.main-wrapper {
+  background: url("../assets/car1.png") no-repeat;
+  height: 100vmin;
+  background-position: center;
+  /* background-color: #1e2424; */
+}
+.container {
+  /* background-color: green; */
+  height: inherit;
+}
+.show-case {
+  /* background-color: red; */
+  height: 70vmin;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.show-case h3 {
+  color: lightblue;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
